@@ -4,7 +4,7 @@ import time
 
 import myo
 import myo as libmyo
-libmyo.init('./lib')
+libmyo.init()
 
 class MyoListener(myo.DeviceListener):
 
